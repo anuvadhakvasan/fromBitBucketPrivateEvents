@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  participatory_event_id: 
+  participant_user_id: 
+
+two:
+  participatory_event_id: 
+  participant_user_id: 

@@ -1,0 +1,13 @@
+<h1> Show Page for Event </h1>
+
+<h1><%= @event.title %></h1>
+
+
+<h1><%= "Event Created by: #{@event.creator.name}" %></h1>
+
+<%= form_for @event_participation, :url => event_participations_path do |f| %>
+  <%= f.hidden_field :participatory_event_id %>
+  <%= f.hidden_field :participant_user_id %>
+  <%= f.submit "Register" %>
+<% end %>
+
